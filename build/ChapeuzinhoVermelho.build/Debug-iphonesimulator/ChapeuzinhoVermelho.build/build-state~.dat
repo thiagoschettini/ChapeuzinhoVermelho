@@ -1,0 +1,255 @@
+TChapeuzinhoVermelho
+v7
+r0
+t368643549.175665
+cCheck dependencies
+cProcessInfoPlistFile /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/Info.plist ChapeuzinhoVermelho-Info.plist
+cCompileXIB /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/MainWindow.xib
+cCompileXIB /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/InitialScreen.xib
+cProcessPCH /var/folders/ym/pgs532kn5r12kjlbgkdrnw3r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ChapeuzinhoVermelho_Prefix-fltymomeulkwfsaeirsveqelfonu/ChapeuzinhoVermelho_Prefix.pch.gch ChapeuzinhoVermelho_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/main.o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/ChapeuzinhoVermelhoAppDelegate.o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/ChapeuzinhoVermelhoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/InitialScreenController.o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/InitialScreenController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho normal i386
+cGenerateDSYMFile /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app.dSYM /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho
+cTouch /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/ChapeuzinhoVermelho_Prefix.pch
+c000000005048D50000000000000000CF
+t1346950400
+s207
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/ChapeuzinhoVermelhoAppDelegate.h
+c000000005048D4FE0000000000000156
+t1346950398
+s342
+i<UIKit/UIKit.h>
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/ChapeuzinhoVermelhoAppDelegate.m
+c000000005048D4FF00000000000009E9
+t1346950399
+s2537
+i"ChapeuzinhoVermelhoAppDelegate.h"
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/InitialScreenController.h
+c000000005048D5CD00000000000000E9
+t1346950605
+s233
+i<UIKit/UIKit.h>
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/InitialScreenController.m
+c000000005048D5CD000000000000062A
+t1346950605
+s1578
+i"InitialScreenController.h"
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/InitialScreen.xib
+c000000005048D64B00000000000031E1
+t1346950731
+s12769
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/MainWindow.xib
+c000000005048D5A1000000000005B88B
+t1346950561
+s374923
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/ChapeuzinhoVermelho.LinkFileList
+c000000005048D65100000000000001F8
+t1346950737
+s504
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/ChapeuzinhoVermelhoAppDelegate.o
+t1346950747
+s50308
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/InitialScreenController.o
+t1346950747
+s38204
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/main.o
+t1346950747
+s6324
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app
+t1346950749
+s238
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app.dSYM
+t1346950748
+s102
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho
+t1346950748
+s17148
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/Info.plist
+t1346950737
+s728
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/InitialScreen.nib
+t1346950740
+s1029
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/MainWindow.nib
+t1346950740
+s1505
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/PkgInfo
+t1346950737
+s8
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/main.m
+c000000005048D5000000000000000160
+t1346950400
+s352
+i<UIKit/UIKit.h>
+
+N/var/folders/ym/pgs532kn5r12kjlbgkdrnw3r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ChapeuzinhoVermelho_Prefix-fltymomeulkwfsaeirsveqelfonu/ChapeuzinhoVermelho_Prefix.pch.gch
+t1346950747
+s15814064
+
+NChapeuzinhoVermelho-Info.plist
+c000000005048D5820000000000000404
+t1346950530
+s1028
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies368643536#368643537#0(0"0(0#1#0"17209477888#0"0#
+
+CCompileC build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/ChapeuzinhoVermelhoAppDelegate.o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/ChapeuzinhoVermelhoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s368643547.270195
+e368643547.606354
+r1
+xCompileC
+xbuild/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/ChapeuzinhoVermelhoAppDelegate.o
+x/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/ChapeuzinhoVermelhoAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/ChapeuzinhoVermelhoAppDelegate.m368643547#368643547#0(0"0(0#0#86"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/ChapeuzinhoVermelhoAppDelegate.m4468510352#2287"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-generated-files.hmap -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-own-target-headers.hmap -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-all-target-headers.hmap -iquote /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-project-headers.hmap -F/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/include -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/DerivedSources/i386 -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/DerivedSources -include /var/folders/ym/pgs532kn5r12kjlbgkdrnw3r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ChapeuzinhoVermelho_Prefix-fltymomeulkwfsaeirsveqelfonu/ChapeuzinhoVermelho_Prefix.pch -c /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/ChapeuzinhoVermelhoAppDelegate.m -o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/ChapeuzinhoVermelhoAppDelegate.o0#
+
+CCompileC build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/InitialScreenController.o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/InitialScreenController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s368643547.484627
+e368643547.606671
+r1
+xCompileC
+xbuild/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/InitialScreenController.o
+x/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/InitialScreenController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/InitialScreenController.m368643547#368643547#0(0"0(0#0#79"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/InitialScreenController.m4468510352#2273"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-generated-files.hmap -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-own-target-headers.hmap -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-all-target-headers.hmap -iquote /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-project-headers.hmap -F/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/include -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/DerivedSources/i386 -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/DerivedSources -include /var/folders/ym/pgs532kn5r12kjlbgkdrnw3r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ChapeuzinhoVermelho_Prefix-fltymomeulkwfsaeirsveqelfonu/ChapeuzinhoVermelho_Prefix.pch -c /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/InitialScreenController.m -o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/InitialScreenController.o0#
+
+CCompileC build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/main.o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s368643547.243826
+e368643547.484502
+r1
+xCompileC
+xbuild/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/main.o
+x/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/main.m368643547#368643547#0(0"0(0#0#52"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/main.m4468510352#2227"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-generated-files.hmap -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-own-target-headers.hmap -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-all-target-headers.hmap -iquote /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-project-headers.hmap -F/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/include -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/DerivedSources/i386 -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/DerivedSources -include /var/folders/ym/pgs532kn5r12kjlbgkdrnw3r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ChapeuzinhoVermelho_Prefix-fltymomeulkwfsaeirsveqelfonu/ChapeuzinhoVermelho_Prefix.pch -c /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/main.m -o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/InitialScreen.xib
+s368643537.346633
+e368643540.430852
+r1
+xCompileXIB
+x/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/InitialScreen.xib
+lSLF07#2@28"CompileXIB InitialScreen.xib368643537#368643540#0(0"0(0#0#63"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/InitialScreen.xib4468510352#609"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/InitialScreen.nib /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/InitialScreen.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/MainWindow.xib
+s368643537.343927
+e368643540.402791
+r1
+xCompileXIB
+x/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib368643537#368643540#0(0"0(0#0#60"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/MainWindow.xib4468510352#603"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/MainWindow.nib /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CGenerateDSYMFile /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app.dSYM /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho
+s368643548.897420
+e368643549.091318
+r1
+xGenerateDSYMFile
+x/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app.dSYM
+x/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho
+lSLF07#2@145"GenerateDSYMFile build/Debug-iphonesimulator/ChapeuzinhoVermelho.app.dSYM build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho368643548#368643549#0(0"0(0#0#117"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho4468510352#440"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho -o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app.dSYM0#
+
+CLd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho normal i386
+s368643547.606748
+e368643548.897281
+r1
+xLd
+x/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho
+xnormal
+xi386
+lSLF07#2@122"Link /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho368643547#368643548#0(0"0(0#0#0"4468510352#995"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator -F/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator -filelist /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/ChapeuzinhoVermelho.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho0#
+
+CProcessInfoPlistFile /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/Info.plist ChapeuzinhoVermelho-Info.plist
+s368643537.253231
+e368643537.343806
+r1
+xProcessInfoPlistFile
+x/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/Info.plist
+xChapeuzinhoVermelho-Info.plist
+lSLF07#2@38"Process ChapeuzinhoVermelho-Info.plist368643537#368643537#0(0"0(0#0#76"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/ChapeuzinhoVermelho-Info.plist17209658880#536"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ChapeuzinhoVermelho-Info.plist -genpkginfo /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/Info.plist0#
+
+CProcessPCH /var/folders/ym/pgs532kn5r12kjlbgkdrnw3r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ChapeuzinhoVermelho_Prefix-fltymomeulkwfsaeirsveqelfonu/ChapeuzinhoVermelho_Prefix.pch.gch ChapeuzinhoVermelho_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s368643540.431199
+e368643547.243576
+r1
+xProcessPCH
+x/var/folders/ym/pgs532kn5r12kjlbgkdrnw3r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ChapeuzinhoVermelho_Prefix-fltymomeulkwfsaeirsveqelfonu/ChapeuzinhoVermelho_Prefix.pch.gch
+xChapeuzinhoVermelho_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Precompile ChapeuzinhoVermelho_Prefix.pch368643540#368643547#0(0"0(0#0#76"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/ChapeuzinhoVermelho_Prefix.pch4468510352#2100"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-generated-files.hmap -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-own-target-headers.hmap -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-all-target-headers.hmap -iquote /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-project-headers.hmap -F/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/include -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/DerivedSources/i386 -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/DerivedSources -c /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/ChapeuzinhoVermelho_Prefix.pch -o /var/folders/ym/pgs532kn5r12kjlbgkdrnw3r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ChapeuzinhoVermelho_Prefix-fltymomeulkwfsaeirsveqelfonu/ChapeuzinhoVermelho_Prefix.pch.gch0#
+
+CTouch /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app
+s368643549.091416
+e368643549.175602
+r1
+xTouch
+x/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app
+lSLF07#2@103"Touch /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app368643549#368643549#0(0"0(0#0#0"4468510352#304"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app0#
+
