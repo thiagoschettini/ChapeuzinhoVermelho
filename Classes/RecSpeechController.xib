@@ -76,6 +76,7 @@
             <reference key="NSSuperview" ref="191373211"/>
             <string key="NSReuseIdentifierKey">_NS:84</string>
             <bool key="IBUIOpaque">NO</bool>
+            <int key="IBUITag">101</int>
             <string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
             <int key="IBUIContentHorizontalAlignment">0</int>
             <int key="IBUIContentVerticalAlignment">0</int>
@@ -108,6 +109,7 @@
             <reference key="NSSuperview" ref="191373211"/>
             <string key="NSReuseIdentifierKey">_NS:84</string>
             <bool key="IBUIOpaque">NO</bool>
+            <int key="IBUITag">102</int>
             <string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
             <int key="IBUIContentHorizontalAlignment">0</int>
             <int key="IBUIContentVerticalAlignment">0</int>
@@ -130,6 +132,7 @@
             <reference key="NSSuperview" ref="191373211"/>
             <string key="NSReuseIdentifierKey">_NS:84</string>
             <bool key="IBUIOpaque">NO</bool>
+            <int key="IBUITag">103</int>
             <string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
             <int key="IBUIContentHorizontalAlignment">0</int>
             <int key="IBUIContentVerticalAlignment">0</int>
@@ -152,6 +155,7 @@
             <reference key="NSSuperview" ref="191373211"/>
             <string key="NSReuseIdentifierKey">_NS:84</string>
             <bool key="IBUIOpaque">NO</bool>
+            <int key="IBUITag">104</int>
             <string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
             <int key="IBUIContentHorizontalAlignment">0</int>
             <int key="IBUIContentVerticalAlignment">0</int>
@@ -174,6 +178,7 @@
             <reference key="NSSuperview" ref="191373211"/>
             <string key="NSReuseIdentifierKey">_NS:84</string>
             <bool key="IBUIOpaque">NO</bool>
+            <int key="IBUITag">105</int>
             <string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
             <int key="IBUIContentHorizontalAlignment">0</int>
             <int key="IBUIContentVerticalAlignment">0</int>
@@ -196,6 +201,7 @@
             <reference key="NSSuperview" ref="191373211"/>
             <string key="NSReuseIdentifierKey">_NS:84</string>
             <bool key="IBUIOpaque">NO</bool>
+            <int key="IBUITag">106</int>
             <string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
             <int key="IBUIContentHorizontalAlignment">0</int>
             <int key="IBUIContentVerticalAlignment">0</int>
@@ -218,6 +224,7 @@
             <reference key="NSSuperview" ref="191373211"/>
             <string key="NSReuseIdentifierKey">_NS:84</string>
             <bool key="IBUIOpaque">NO</bool>
+            <int key="IBUITag">107</int>
             <string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
             <int key="IBUIContentHorizontalAlignment">0</int>
             <int key="IBUIContentVerticalAlignment">0</int>
@@ -240,6 +247,7 @@
             <reference key="NSSuperview" ref="191373211"/>
             <string key="NSReuseIdentifierKey">_NS:84</string>
             <bool key="IBUIOpaque">NO</bool>
+            <int key="IBUITag">108</int>
             <string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
             <int key="IBUIContentHorizontalAlignment">0</int>
             <int key="IBUIContentVerticalAlignment">0</int>
@@ -262,6 +270,7 @@
             <reference key="NSSuperview" ref="191373211"/>
             <string key="NSReuseIdentifierKey">_NS:84</string>
             <bool key="IBUIOpaque">NO</bool>
+            <int key="IBUITag">109</int>
             <string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
             <int key="IBUIContentHorizontalAlignment">0</int>
             <int key="IBUIContentVerticalAlignment">0</int>
@@ -408,6 +417,105 @@
             <int key="IBEventType">7</int>
           </object>
           <int key="connectionID">21</int>
+        </object>
+        <object class="IBConnectionRecord">
+          <object class="IBCocoaTouchEventConnection" key="connection">
+            <string key="label">chapterSelection:</string>
+            <reference key="source" ref="120364276"/>
+            <reference key="destination" ref="372490531"/>
+            <int key="IBEventType">7</int>
+          </object>
+          <int key="connectionID">22</int>
+        </object>
+        <object class="IBConnectionRecord">
+          <object class="IBCocoaTouchEventConnection" key="connection">
+            <string key="label">chapterSelection:</string>
+            <reference key="source" ref="694290968"/>
+            <reference key="destination" ref="372490531"/>
+            <int key="IBEventType">7</int>
+          </object>
+          <int key="connectionID">23</int>
+        </object>
+        <object class="IBConnectionRecord">
+          <object class="IBCocoaTouchEventConnection" key="connection">
+            <string key="label">chapterSelection:</string>
+            <reference key="source" ref="596372322"/>
+            <reference key="destination" ref="372490531"/>
+            <int key="IBEventType">7</int>
+          </object>
+          <int key="connectionID">24</int>
+        </object>
+        <object class="IBConnectionRecord">
+          <object class="IBCocoaTouchEventConnection" key="connection">
+            <string key="label">chapterSelection:</string>
+            <reference key="source" ref="663239934"/>
+            <reference key="destination" ref="372490531"/>
+            <int key="IBEventType">7</int>
+          </object>
+          <int key="connectionID">25</int>
+        </object>
+        <object class="IBConnectionRecord">
+          <object class="IBCocoaTouchEventConnection" key="connection">
+            <string key="label">chapterSelection:</string>
+            <reference key="source" ref="111308735"/>
+            <reference key="destination" ref="372490531"/>
+            <int key="IBEventType">7</int>
+          </object>
+          <int key="connectionID">26</int>
+        </object>
+        <object class="IBConnectionRecord">
+          <object class="IBCocoaTouchEventConnection" key="connection">
+            <string key="label">chapterSelection:</string>
+            <reference key="source" ref="362161040"/>
+            <reference key="destination" ref="372490531"/>
+            <int key="IBEventType">7</int>
+          </object>
+          <int key="connectionID">27</int>
+        </object>
+        <object class="IBConnectionRecord">
+          <object class="IBCocoaTouchEventConnection" key="connection">
+            <string key="label">chapterSelection:</string>
+            <reference key="source" ref="113196348"/>
+            <reference key="destination" ref="372490531"/>
+            <int key="IBEventType">7</int>
+          </object>
+          <int key="connectionID">28</int>
+        </object>
+        <object class="IBConnectionRecord">
+          <object class="IBCocoaTouchEventConnection" key="connection">
+            <string key="label">chapterSelection:</string>
+            <reference key="source" ref="292397921"/>
+            <reference key="destination" ref="372490531"/>
+            <int key="IBEventType">7</int>
+          </object>
+          <int key="connectionID">29</int>
+        </object>
+        <object class="IBConnectionRecord">
+          <object class="IBCocoaTouchEventConnection" key="connection">
+            <string key="label">recordAudio</string>
+            <reference key="source" ref="275754501"/>
+            <reference key="destination" ref="372490531"/>
+            <int key="IBEventType">7</int>
+          </object>
+          <int key="connectionID">30</int>
+        </object>
+        <object class="IBConnectionRecord">
+          <object class="IBCocoaTouchEventConnection" key="connection">
+            <string key="label">playAudio</string>
+            <reference key="source" ref="771655928"/>
+            <reference key="destination" ref="372490531"/>
+            <int key="IBEventType">7</int>
+          </object>
+          <int key="connectionID">31</int>
+        </object>
+        <object class="IBConnectionRecord">
+          <object class="IBCocoaTouchEventConnection" key="connection">
+            <string key="label">stop</string>
+            <reference key="source" ref="1051516343"/>
+            <reference key="destination" ref="372490531"/>
+            <int key="IBEventType">7</int>
+          </object>
+          <int key="connectionID">32</int>
         </object>
       </object>
       <object class="IBMutableOrderedSet" key="objectRecords">
@@ -580,7 +688,7 @@
           <bool key="EncodedWithXMLCoder">YES</bool>
           <string>RecSpeechController</string>
           <string>UIResponder</string>
-          <string>{{474, 360}, {480, 320}}</string>
+          <string>{{861, 189}, {480, 320}}</string>
           <string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
           <string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
           <object class="NSAffineTransform">
@@ -661,7 +769,7 @@
         </object>
       </object>
       <nil key="sourceID"/>
-      <int key="maxID">21</int>
+      <int key="maxID">32</int>
     </object>
     <object class="IBClassDescriber" key="IBDocument.Classes">
       <object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -670,14 +778,67 @@
           <string key="className">RecSpeechController</string>
           <string key="superclassName">UIViewController</string>
           <object class="NSMutableDictionary" key="actions">
-            <string key="NS.key.0">swapViews:</string>
-            <string key="NS.object.0">id</string>
+            <bool key="EncodedWithXMLCoder">YES</bool>
+            <object class="NSArray" key="dict.sortedKeys">
+              <bool key="EncodedWithXMLCoder">YES</bool>
+              <string>chapterSelection:</string>
+              <string>playAudio</string>
+              <string>recordAudio</string>
+              <string>stop</string>
+              <string>swapViews:</string>
+            </object>
+            <object class="NSMutableArray" key="dict.values">
+              <bool key="EncodedWithXMLCoder">YES</bool>
+              <string>id</string>
+              <string>id</string>
+              <string>id</string>
+              <string>id</string>
+              <string>id</string>
+            </object>
           </object>
           <object class="NSMutableDictionary" key="actionInfosByName">
-            <string key="NS.key.0">swapViews:</string>
-            <object class="IBActionInfo" key="NS.object.0">
-              <string key="name">swapViews:</string>
-              <string key="candidateClassName">id</string>
+            <bool key="EncodedWithXMLCoder">YES</bool>
+            <object class="NSArray" key="dict.sortedKeys">
+              <bool key="EncodedWithXMLCoder">YES</bool>
+              <string>chapterSelection:</string>
+              <string>playAudio</string>
+              <string>recordAudio</string>
+              <string>stop</string>
+              <string>swapViews:</string>
+            </object>
+            <object class="NSMutableArray" key="dict.values">
+              <bool key="EncodedWithXMLCoder">YES</bool>
+              <object class="IBActionInfo">
+                <string key="name">chapterSelection:</string>
+                <string key="candidateClassName">id</string>
+              </object>
+              <object class="IBActionInfo">
+                <string key="name">playAudio</string>
+                <string key="candidateClassName">id</string>
+              </object>
+              <object class="IBActionInfo">
+                <string key="name">recordAudio</string>
+                <string key="candidateClassName">id</string>
+              </object>
+              <object class="IBActionInfo">
+                <string key="name">stop</string>
+                <string key="candidateClassName">id</string>
+              </object>
+              <object class="IBActionInfo">
+                <string key="name">swapViews:</string>
+                <string key="candidateClassName">id</string>
+              </object>
+            </object>
+          </object>
+          <object class="NSMutableDictionary" key="outlets">
+            <string key="NS.key.0">textToRead</string>
+            <string key="NS.object.0">UIScrollView</string>
+          </object>
+          <object class="NSMutableDictionary" key="toOneOutletInfosByName">
+            <string key="NS.key.0">textToRead</string>
+            <object class="IBToOneOutletInfo" key="NS.object.0">
+              <string key="name">textToRead</string>
+              <string key="candidateClassName">UIScrollView</string>
             </object>
           </object>
           <object class="IBClassDescriptionSource" key="sourceIdentifier">
@@ -807,6 +968,14 @@
           <string key="className">UIResponder</string>
           <string key="superclassName">NSObject</string>
           <reference key="sourceIdentifier" ref="150185954"/>
+        </object>
+        <object class="IBPartialClassDescription">
+          <string key="className">UIScrollView</string>
+          <string key="superclassName">UIView</string>
+          <object class="IBClassDescriptionSource" key="sourceIdentifier">
+            <string key="majorKey">IBFrameworkSource</string>
+            <string key="minorKey">UIKit.framework/Headers/UIScrollView.h</string>
+          </object>
         </object>
         <object class="IBPartialClassDescription">
           <string key="className">UISearchBar</string>

@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+
+
 @class InitialScreenController;
 
 @interface ChapeuzinhoVermelhoAppDelegate : NSObject <UIApplicationDelegate> {

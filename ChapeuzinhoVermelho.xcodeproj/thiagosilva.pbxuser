@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* ChapeuzinhoVermelhoAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {756, 299}}";
-			sepNavSelRange = "{480, 58}";
-			sepNavVisRange = "{0, 544}";
+			sepNavIntBoundsRect = "{{0, 0}, {726, 635}}";
+			sepNavSelRange = "{174, 0}";
+			sepNavVisRange = "{0, 546}";
 		};
 	};
 	1D3623250D0F684500981E51 /* ChapeuzinhoVermelhoAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {817, 1352}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1261}}";
 			sepNavSelRange = "{694, 0}";
-			sepNavVisRange = "{276, 830}";
+			sepNavVisRange = "{0, 1952}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* ChapeuzinhoVermelho */ = {
@@ -37,7 +37,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					593,
+					933,
 					20,
 					48,
 					43,
@@ -54,36 +54,26 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 368650355;
-			PBXWorkspaceStateSaveDate = 368650355;
+			PBXPerProjectTemplateStateSaveDate = 369071286;
+			PBXWorkspaceStateSaveDate = 369071286;
 		};
 		perUserProjectItems = {
-			C20BA52A15F92AC700FEE88C /* PBXTextBookmark */ = C20BA52A15F92AC700FEE88C /* PBXTextBookmark */;
 			C20BA52B15F92AC700FEE88C /* PBXTextBookmark */ = C20BA52B15F92AC700FEE88C /* PBXTextBookmark */;
-			C20BA52C15F92AC700FEE88C /* PBXTextBookmark */ = C20BA52C15F92AC700FEE88C /* PBXTextBookmark */;
-			C20BA52D15F92AC700FEE88C /* XCBuildMessageTextBookmark */ = C20BA52D15F92AC700FEE88C /* XCBuildMessageTextBookmark */;
-			C20BA52E15F92AC700FEE88C /* PBXTextBookmark */ = C20BA52E15F92AC700FEE88C /* PBXTextBookmark */;
 			C224233F15F922C200444FDF /* PBXBookmark */ = C224233F15F922C200444FDF /* PBXBookmark */;
 			C224234815F9253800444FDF /* PBXBookmark */ = C224234815F9253800444FDF /* PBXBookmark */;
 			C224234915F9253800444FDF /* PBXBookmark */ = C224234915F9253800444FDF /* PBXBookmark */;
+			C2325B9415FF99230043289E /* PBXTextBookmark */ = C2325B9415FF99230043289E /* PBXTextBookmark */;
+			C2325B9F15FF99CD0043289E /* PBXTextBookmark */ = C2325B9F15FF99CD0043289E /* PBXTextBookmark */;
+			C2325BB815FF9B930043289E /* PBXTextBookmark */ = C2325BB815FF9B930043289E /* PBXTextBookmark */;
+			C2325BB915FF9B930043289E /* XCBuildMessageTextBookmark */ = C2325BB915FF9B930043289E /* XCBuildMessageTextBookmark */;
+			C2325BC015FF9BEA0043289E /* PBXTextBookmark */ = C2325BC015FF9BEA0043289E /* PBXTextBookmark */;
 			C2DC50E915F917200061E4FF /* PlistBookmark */ = C2DC50E915F917200061E4FF /* PlistBookmark */;
 			C2DC50EA15F917200061E4FF /* PBXBookmark */ = C2DC50EA15F917200061E4FF /* PBXBookmark */;
-			C2DC50F015F9183E0061E4FF /* PBXTextBookmark */ = C2DC50F015F9183E0061E4FF /* PBXTextBookmark */;
 			C2DC50F715F919450061E4FF /* PBXTextBookmark */ = C2DC50F715F919450061E4FF /* PBXTextBookmark */;
 		};
 		sourceControlManager = C2DC509E15F90C940061E4FF /* Source Control */;
 		userBuildSettings = {
 		};
-	};
-	C20BA52A15F92AC700FEE88C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* ChapeuzinhoVermelhoAppDelegate.m */;
-		name = "ChapeuzinhoVermelhoAppDelegate.m: 26";
-		rLen = 0;
-		rLoc = 694;
-		rType = 0;
-		vrLen = 830;
-		vrLoc = 276;
 	};
 	C20BA52B15F92AC700FEE88C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -94,35 +84,6 @@
 		rType = 0;
 		vrLen = 883;
 		vrLoc = 146;
-	};
-	C20BA52C15F92AC700FEE88C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = C2DC50E115F917150061E4FF /* RecSpeechController.h */;
-		name = "RecSpeechController.h: 16";
-		rLen = 0;
-		rLoc = 252;
-		rType = 0;
-		vrLen = 259;
-		vrLoc = 0;
-	};
-	C20BA52D15F92AC700FEE88C /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "'ChapeuzinhoVermelhoAppDelegate' undeclared (first use in this function)";
-		fRef = C2DC50E215F917150061E4FF /* RecSpeechController.m */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 15;
-		rType = 1;
-	};
-	C20BA52E15F92AC700FEE88C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = C2DC50E215F917150061E4FF /* RecSpeechController.m */;
-		name = "RecSpeechController.m: 18";
-		rLen = 0;
-		rLoc = 618;
-		rType = 0;
-		vrLen = 873;
-		vrLoc = 3;
 	};
 	C224233F15F922C200444FDF /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -135,6 +96,55 @@
 	C224234915F9253800444FDF /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = C224234615F9250700444FDF /* voltarButton.png */;
+	};
+	C2325B9415FF99230043289E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ChapeuzinhoVermelhoAppDelegate.h */;
+		name = "ChapeuzinhoVermelhoAppDelegate.h: 11";
+		rLen = 0;
+		rLoc = 174;
+		rType = 0;
+		vrLen = 546;
+		vrLoc = 0;
+	};
+	C2325B9F15FF99CD0043289E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ChapeuzinhoVermelhoAppDelegate.m */;
+		name = "ChapeuzinhoVermelhoAppDelegate.m: 26";
+		rLen = 0;
+		rLoc = 694;
+		rType = 0;
+		vrLen = 1952;
+		vrLoc = 0;
+	};
+	C2325BB815FF9B930043289E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2DC50E215F917150061E4FF /* RecSpeechController.m */;
+		name = "RecSpeechController.m: 57";
+		rLen = 0;
+		rLoc = 2108;
+		rType = 0;
+		vrLen = 2070;
+		vrLoc = 0;
+	};
+	C2325BB915FF9B930043289E /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected specifier-qualifier-list before 'AVAudioRecorder'";
+		fRef = C2DC50E115F917150061E4FF /* RecSpeechController.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 16;
+		rType = 1;
+	};
+	C2325BC015FF9BEA0043289E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2DC50E115F917150061E4FF /* RecSpeechController.h */;
+		name = "RecSpeechController.h: 27";
+		rLen = 0;
+		rLoc = 567;
+		rType = 0;
+		vrLen = 711;
+		vrLoc = 0;
 	};
 	C2DC508F15F90C810061E4FF /* ChapeuzinhoVermelho */ = {
 		isa = PBXExecutable;
@@ -194,17 +204,18 @@
 	};
 	C2DC50E115F917150061E4FF /* RecSpeechController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {756, 280}}";
-			sepNavSelRange = "{252, 0}";
-			sepNavVisRange = "{0, 259}";
+			sepNavIntBoundsRect = "{{0, 0}, {1096, 684}}";
+			sepNavSelRange = "{567, 0}";
+			sepNavVisRange = "{0, 711}";
 			sepNavWindowFrame = "{{15, 465}, {750, 558}}";
 		};
 	};
 	C2DC50E215F917150061E4FF /* RecSpeechController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1139, 767}}";
-			sepNavSelRange = "{320, 0}";
-			sepNavVisRange = "{138, 738}";
+			sepNavIntBoundsRect = "{{0, 0}, {894, 2496}}";
+			sepNavSelRange = "{1820, 0}";
+			sepNavVisRange = "{1491, 618}";
+			sepNavWindowFrame = "{{15, 465}, {750, 558}}";
 		};
 	};
 	C2DC50E915F917200061E4FF /* PlistBookmark */ = {
@@ -222,16 +233,6 @@
 	C2DC50EA15F917200061E4FF /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = C2DC50C815F912DD0061E4FF /* initialScreenBg.jpg */;
-	};
-	C2DC50F015F9183E0061E4FF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* ChapeuzinhoVermelhoAppDelegate.h */;
-		name = "ChapeuzinhoVermelhoAppDelegate.h: 21";
-		rLen = 58;
-		rLoc = 480;
-		rType = 0;
-		vrLen = 544;
-		vrLoc = 0;
 	};
 	C2DC50F715F919450061E4FF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;

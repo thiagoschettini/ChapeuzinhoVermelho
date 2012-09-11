@@ -1,0 +1,35 @@
+/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/RecSpeechController.m: In function '-[RecSpeechController recordAudio]':
+/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/RecSpeechController.m:49: error: 'audioRecorder' undeclared (first use in this function)
+/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/RecSpeechController.m:49: error: (Each undeclared identifier is reported only once
+/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/RecSpeechController.m:49: error: for each function it appears in.)
+/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/RecSpeechController.m: In function '-[RecSpeechController stop]':
+/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/RecSpeechController.m:65: error: 'audioRecorder' undeclared (first use in this function)
+/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/RecSpeechController.m:67: error: 'audioPlayer' undeclared (first use in this function)
+/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/RecSpeechController.m: In function '-[RecSpeechController playAudio]':
+/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/RecSpeechController.m:82: error: 'audioPlayer' undeclared (first use in this function)
+{standard input}:115:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"
+{standard input}:115:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+{standard input}:109:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000001$pb"
+{standard input}:109:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+{standard input}:102:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000001$pb"
+{standard input}:102:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+{standard input}:91:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
+{standard input}:91:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+{standard input}:84:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
+{standard input}:84:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+{standard input}:81:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"
+{standard input}:81:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+{standard input}:74:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+{standard input}:74:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+{standard input}:68:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+{standard input}:68:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+{standard input}:65:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000001$pb"
+{standard input}:65:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4

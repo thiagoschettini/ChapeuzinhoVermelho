@@ -1,7 +1,7 @@
 TChapeuzinhoVermelho
 v7
 r0
-t368650854.638274
+t369073097.034986
 cCheck dependencies
 cProcessInfoPlistFile /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/Info.plist ChapeuzinhoVermelho-Info.plist
 cCompileXIB /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/MainWindow.xib
@@ -27,6 +27,15 @@ cCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/recNarracaoBg.jp
 cCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/stopButton.png stopButton.png
 cCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/top-shade.png top-shade.png
 cCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/voltarButton.png voltarButton.png
+cCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap01text.png chap01text.png
+cCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap02text.png chap02text.png
+cCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap03text.png chap03text.png
+cCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap04text.png chap04text.png
+cCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap05text.png chap05text.png
+cCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap06text.png chap06text.png
+cCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap07text.png chap07text.png
+cCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap08text.png chap08text.png
+cCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap09text.png chap09text.png
 cProcessPCH /var/folders/ym/pgs532kn5r12kjlbgkdrnw3r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ChapeuzinhoVermelho_Prefix-fltymomeulkwfsaeirsveqelfonu/ChapeuzinhoVermelho_Prefix.pch.gch ChapeuzinhoVermelho_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/main.o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/ChapeuzinhoVermelhoAppDelegate.o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/ChapeuzinhoVermelhoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -40,6 +49,26 @@ N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3
 c000000004D5C9B4E0000000000000110
 t1297914702
 s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004D5EBEC300000000001340C0
+t1298054851
+s1261760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004D5EBEBB00000000000007D0
+t1298054843
+s2000
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004D54CF5D0000000000205F50
+t1297403741
+s2121552
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004D54CF4A0000000000000A23
+t1297403722
+s2595
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 c000000004D54CFFA00000000002999B0
@@ -74,9 +103,9 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/ChapeuzinhoVermelhoAppDelegate.h
-c000000005048E0B40000000000000220
-t1346953396
-s544
+c00000000504F60A40000000000000222
+t1347379364
+s546
 i<UIKit/UIKit.h>
 
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/ChapeuzinhoVermelhoAppDelegate.m
@@ -101,23 +130,26 @@ i"ChapeuzinhoVermelhoAppDelegate.h"
 i"RecSpeechController.h"
 
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/RecSpeechController.h
-c000000005048E1B60000000000000103
-t1346953654
-s259
+c00000000504F641E00000000000002C7
+t1347380254
+s711
 i<UIKit/UIKit.h>
+i<AVFoundation/AVFoundation.h>
 
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/RecSpeechController.m
-c000000005048F347000000000000074A
-t1346958151
-s1866
+c00000000504F63870000000000001A71
+t1347380103
+s6769
 i"RecSpeechController.h"
 i"ChapeuzinhoVermelhoAppDelegate.h"
 i"InitialScreenController.h"
+i<AudioToolbox/AudioToolbox.h>
+i<AVFoundation/AVFoundation.h>
 
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/RecSpeechController.xib
-c000000005048F13D000000000000BD06
-t1346957629
-s48390
+c00000000504F6443000000000000DB04
+t1347380291
+s56068
 
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/InitialScreen.xib
 c000000005048E2C800000000000061CD
@@ -135,32 +167,32 @@ t1346953883
 s672
 
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/ChapeuzinhoVermelhoAppDelegate.o
-t1346953887
+t1347379369
 s54708
 
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/InitialScreenController.o
-t1346953887
-s46036
+t1347380296
+s47172
 
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/RecSpeechController.o
-t1346958054
-s45912
+t1347380296
+s69624
 
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/main.o
 t1346950747
 s6324
 
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app
-t1346958054
-s952
+t1347380297
+s1258
 
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app.dSYM
-t1346958054
+t1347380296
 s102
 
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho
-t1346958054
-s19536
+t1347380296
+s30824
 
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/Info.plist
 t1346951777
@@ -179,44 +211,80 @@ t1346951777
 s8
 
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/RecSpeechController.nib
-t1346957640
-s7122
+t1347380296
+s7826
 
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap01Sel.png
 t1346956444
 s6066
 
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap01text.png
+t1347379335
+s100633
+
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap02Sel.png
 t1346956444
 s6322
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap02text.png
+t1347379335
+s287839
 
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap03Sel.png
 t1346956444
 s6397
 
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap03text.png
+t1347379335
+s32713
+
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap04Sel.png
 t1346956444
 s6182
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap04text.png
+t1347379335
+s54678
 
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap05Sel.png
 t1346956444
 s6283
 
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap05text.png
+t1347379335
+s69205
+
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap06Sel.png
 t1346956444
 s6291
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap06text.png
+t1347379335
+s77680
 
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap07Sel.png
 t1346956444
 s6146
 
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap07text.png
+t1347379335
+s116889
+
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap08Sel.png
 t1346956444
 s6190
 
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap08text.png
+t1347379335
+s140997
+
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap09Sel.png
 t1346956444
 s5930
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap09text.png
+t1347379335
+s100547
 
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap10Sel.png
 t1346956444
@@ -267,45 +335,90 @@ c000000005048E58F00000000000017B2
 t1346954639
 s6066
 
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap01text.png
+c00000000503402A50000000000018919
+t1345585829
+s100633
+
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap02Sel.png
 c000000005048E5A200000000000018B2
 t1346954658
 s6322
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap02text.png
+c0000000050340464000000000004645F
+t1345586276
+s287839
 
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap03Sel.png
 c000000005048E5B400000000000018FD
 t1346954676
 s6397
 
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap03text.png
+c000000005034047F0000000000007FC9
+t1345586303
+s32713
+
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap04Sel.png
 c000000005048E5C20000000000001826
 t1346954690
 s6182
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap04text.png
+c00000000503404E5000000000000D596
+t1345586405
+s54678
 
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap05Sel.png
 c000000005048E5D1000000000000188B
 t1346954705
 s6283
 
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap05text.png
+c00000000503404FB0000000000010E55
+t1345586427
+s69205
+
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap06Sel.png
 c000000005048E5E10000000000001893
 t1346954721
 s6291
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap06text.png
+c00000000503405190000000000012F70
+t1345586457
+s77680
 
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap07Sel.png
 c000000005048E5F00000000000001802
 t1346954736
 s6146
 
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap07text.png
+c0000000050340559000000000001C899
+t1345586521
+s116889
+
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap08Sel.png
 c000000005048E609000000000000182E
 t1346954761
 s6190
 
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap08text.png
+c000000005034057600000000000226C5
+t1345586550
+s140997
+
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap09Sel.png
 c000000005048E616000000000000172A
 t1346954774
 s5930
+
+N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap09text.png
+c000000005034058B00000000000188C3
+t1345586571
+s100547
 
 N/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap10Sel.png
 c000000005048E62600000000000016EC
@@ -379,11 +492,11 @@ s1067
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies368650854#368650854#0(0"0(0#1#0"17211886592#0"0#
+lSLF07#2@18"Check dependencies369073095#369073095#0(0"0(0#1#0"4518622528#0"0#
 
 CCompileC build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/ChapeuzinhoVermelhoAppDelegate.o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/ChapeuzinhoVermelhoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s368646686.605583
-e368646687.200340
+s369072169.399064
+e369072169.512602
 r1
 xCompileC
 xbuild/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/ChapeuzinhoVermelhoAppDelegate.o
@@ -392,11 +505,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@94"Compile /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/ChapeuzinhoVermelhoAppDelegate.m368646686#368646687#0(0"0(0#0#86"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/ChapeuzinhoVermelhoAppDelegate.m4482121360#2287"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-generated-files.hmap -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-own-target-headers.hmap -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-all-target-headers.hmap -iquote /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-project-headers.hmap -F/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/include -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/DerivedSources/i386 -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/DerivedSources -include /var/folders/ym/pgs532kn5r12kjlbgkdrnw3r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ChapeuzinhoVermelho_Prefix-fltymomeulkwfsaeirsveqelfonu/ChapeuzinhoVermelho_Prefix.pch -c /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/ChapeuzinhoVermelhoAppDelegate.m -o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/ChapeuzinhoVermelhoAppDelegate.o0#
+lSLF07#2@94"Compile /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/ChapeuzinhoVermelhoAppDelegate.m369072169#369072169#0(0"0(0#0#86"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/ChapeuzinhoVermelhoAppDelegate.m4430139024#2287"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-generated-files.hmap -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-own-target-headers.hmap -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-all-target-headers.hmap -iquote /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-project-headers.hmap -F/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/include -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/DerivedSources/i386 -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/DerivedSources -include /var/folders/ym/pgs532kn5r12kjlbgkdrnw3r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ChapeuzinhoVermelho_Prefix-fltymomeulkwfsaeirsveqelfonu/ChapeuzinhoVermelho_Prefix.pch -c /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/ChapeuzinhoVermelhoAppDelegate.m -o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/ChapeuzinhoVermelhoAppDelegate.o0#
 
 CCompileC build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/InitialScreenController.o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/InitialScreenController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s368646686.635346
-e368646687.336262
+s369073096.693988
+e369073096.884670
 r1
 xCompileC
 xbuild/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/InitialScreenController.o
@@ -405,11 +518,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@87"Compile /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/InitialScreenController.m368646686#368646687#0(0"0(0#0#79"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/InitialScreenController.m4482121360#2273"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-generated-files.hmap -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-own-target-headers.hmap -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-all-target-headers.hmap -iquote /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-project-headers.hmap -F/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/include -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/DerivedSources/i386 -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/DerivedSources -include /var/folders/ym/pgs532kn5r12kjlbgkdrnw3r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ChapeuzinhoVermelho_Prefix-fltymomeulkwfsaeirsveqelfonu/ChapeuzinhoVermelho_Prefix.pch -c /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/InitialScreenController.m -o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/InitialScreenController.o0#
+lSLF07#2@87"Compile /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/InitialScreenController.m369073096#369073096#0(0"0(0#0#79"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/InitialScreenController.m4518620816#2273"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-generated-files.hmap -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-own-target-headers.hmap -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-all-target-headers.hmap -iquote /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-project-headers.hmap -F/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/include -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/DerivedSources/i386 -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/DerivedSources -include /var/folders/ym/pgs532kn5r12kjlbgkdrnw3r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ChapeuzinhoVermelho_Prefix-fltymomeulkwfsaeirsveqelfonu/ChapeuzinhoVermelho_Prefix.pch -c /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/InitialScreenController.m -o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/InitialScreenController.o0#
 
 CCompileC build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/RecSpeechController.o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/RecSpeechController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s368650854.031674
-e368650854.197919
+s369073096.695128
+e369073096.911290
 r1
 xCompileC
 xbuild/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/RecSpeechController.o
@@ -418,7 +531,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/RecSpeechController.m368650854#368650854#0(0"0(0#0#75"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/RecSpeechController.m4497362576#2265"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-generated-files.hmap -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-own-target-headers.hmap -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-all-target-headers.hmap -iquote /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-project-headers.hmap -F/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/include -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/DerivedSources/i386 -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/DerivedSources -include /var/folders/ym/pgs532kn5r12kjlbgkdrnw3r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ChapeuzinhoVermelho_Prefix-fltymomeulkwfsaeirsveqelfonu/ChapeuzinhoVermelho_Prefix.pch -c /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/RecSpeechController.m -o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/RecSpeechController.o0#
+lSLF07#2@83"Compile /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/RecSpeechController.m369073096#369073096#0(0"0(0#0#75"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/RecSpeechController.m4518620816#2265"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-generated-files.hmap -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-own-target-headers.hmap -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-all-target-headers.hmap -iquote /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-project-headers.hmap -F/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/include -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/DerivedSources/i386 -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/DerivedSources -include /var/folders/ym/pgs532kn5r12kjlbgkdrnw3r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ChapeuzinhoVermelho_Prefix-fltymomeulkwfsaeirsveqelfonu/ChapeuzinhoVermelho_Prefix.pch -c /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/RecSpeechController.m -o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/RecSpeechController.o0#
 
 CCompileC build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/main.o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s368643547.243826
@@ -434,28 +547,28 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@60"Compile /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/main.m368643547#368643547#0(0"0(0#0#52"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/main.m4468510352#2227"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-generated-files.hmap -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-own-target-headers.hmap -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-all-target-headers.hmap -iquote /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-project-headers.hmap -F/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/include -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/DerivedSources/i386 -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/DerivedSources -include /var/folders/ym/pgs532kn5r12kjlbgkdrnw3r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ChapeuzinhoVermelho_Prefix-fltymomeulkwfsaeirsveqelfonu/ChapeuzinhoVermelho_Prefix.pch -c /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/main.m -o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/main.o0#
 
 CCompileXIB /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/RecSpeechController.xib
-s368650439.369050
-e368650440.127747
+s369073095.752804
+e369073096.693537
 r1
 xCompileXIB
 x/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/RecSpeechController.xib
-o2012-09-06 15:53:59.567 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
-o2012-09-06 15:53:59.568 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
-o2012-09-06 15:53:59.571 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
-o2012-09-06 15:53:59.572 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
-o2012-09-06 15:53:59.573 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
-o2012-09-06 15:53:59.574 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
-o2012-09-06 15:53:59.574 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
-o2012-09-06 15:53:59.575 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
-o2012-09-06 15:53:59.575 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
-o2012-09-06 15:53:59.576 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
-o2012-09-06 15:53:59.576 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
-o2012-09-06 15:53:59.577 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
-o2012-09-06 15:53:59.578 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
-o2012-09-06 15:53:59.578 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
-o2012-09-06 15:53:59.579 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
-o2012-09-06 15:53:59.579 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
-lSLF07#2@42"CompileXIB Classes/RecSpeechController.xib368650439#368650440#0(2960"2012-09-06 15:53:59.567 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-06 15:53:59.568 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-06 15:53:59.571 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-06 15:53:59.572 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-06 15:53:59.573 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-06 15:53:59.574 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-06 15:53:59.574 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-06 15:53:59.575 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-06 15:53:59.575 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-06 15:53:59.576 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-06 15:53:59.576 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-06 15:53:59.577 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-06 15:53:59.578 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-06 15:53:59.578 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-06 15:53:59.579 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-06 15:53:59.579 ibtool[10329:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  0(0#0#77"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/RecSpeechController.xib17199165952#629"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/RecSpeechController.nib /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/RecSpeechController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+o2012-09-11 13:18:16.144 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+o2012-09-11 13:18:16.168 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+o2012-09-11 13:18:16.191 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+o2012-09-11 13:18:16.192 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+o2012-09-11 13:18:16.193 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+o2012-09-11 13:18:16.194 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+o2012-09-11 13:18:16.195 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+o2012-09-11 13:18:16.196 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+o2012-09-11 13:18:16.197 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+o2012-09-11 13:18:16.197 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+o2012-09-11 13:18:16.198 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+o2012-09-11 13:18:16.198 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+o2012-09-11 13:18:16.199 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+o2012-09-11 13:18:16.200 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+o2012-09-11 13:18:16.200 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+o2012-09-11 13:18:16.201 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+lSLF07#2@42"CompileXIB Classes/RecSpeechController.xib369073095#369073096#0(2944"2012-09-11 13:18:16.144 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-11 13:18:16.168 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-11 13:18:16.191 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-11 13:18:16.192 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-11 13:18:16.193 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-11 13:18:16.194 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-11 13:18:16.195 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-11 13:18:16.196 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-11 13:18:16.197 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-11 13:18:16.197 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-11 13:18:16.198 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-11 13:18:16.198 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-11 13:18:16.199 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-11 13:18:16.200 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-11 13:18:16.200 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-09-11 13:18:16.201 ibtool[2186:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  0(0#0#77"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/RecSpeechController.xib4518620816#629"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/RecSpeechController.nib /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/RecSpeechController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
 
 CCompileXIB /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/InitialScreen.xib
 s368646742.335417
@@ -485,6 +598,15 @@ xbuild/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap01Sel.png
 xchap01Sel.png
 lSLF07#2@18"Copy chap01Sel.png368649243#368649244#0(0"0(0#0#59"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap01Sel.png4430974608#504"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap01Sel.png /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app0#
 
+CCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap01text.png chap01text.png
+s369072135.241693
+e369072135.537625
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap01text.png
+xchap01text.png
+lSLF07#2@19"Copy chap01text.png369072135#369072135#0(0"0(0#0#60"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap01text.png4430139024#505"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap01text.png /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app0#
+
 CCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap02Sel.png chap02Sel.png
 s368649243.916729
 e368649244.006500
@@ -493,6 +615,15 @@ xCpResource
 xbuild/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap02Sel.png
 xchap02Sel.png
 lSLF07#2@18"Copy chap02Sel.png368649243#368649244#0(0"0(0#0#59"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap02Sel.png4430974608#504"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap02Sel.png /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app0#
+
+CCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap02text.png chap02text.png
+s369072135.252450
+e369072135.537773
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap02text.png
+xchap02text.png
+lSLF07#2@19"Copy chap02text.png369072135#369072135#0(0"0(0#0#60"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap02text.png4430139024#505"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap02text.png /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app0#
 
 CCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap03Sel.png chap03Sel.png
 s368649243.917395
@@ -503,6 +634,15 @@ xbuild/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap03Sel.png
 xchap03Sel.png
 lSLF07#2@18"Copy chap03Sel.png368649243#368649244#0(0"0(0#0#59"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap03Sel.png4430974608#504"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap03Sel.png /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app0#
 
+CCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap03text.png chap03text.png
+s369072135.253438
+e369072135.535916
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap03text.png
+xchap03text.png
+lSLF07#2@19"Copy chap03text.png369072135#369072135#0(0"0(0#0#60"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap03text.png4430139024#505"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap03text.png /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app0#
+
 CCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap04Sel.png chap04Sel.png
 s368649243.918179
 e368649244.016856
@@ -511,6 +651,15 @@ xCpResource
 xbuild/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap04Sel.png
 xchap04Sel.png
 lSLF07#2@18"Copy chap04Sel.png368649243#368649244#0(0"0(0#0#59"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap04Sel.png4430974608#504"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap04Sel.png /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app0#
+
+CCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap04text.png chap04text.png
+s369072135.255147
+e369072135.537917
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap04text.png
+xchap04text.png
+lSLF07#2@19"Copy chap04text.png369072135#369072135#0(0"0(0#0#60"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap04text.png4430139024#505"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap04text.png /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app0#
 
 CCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap05Sel.png chap05Sel.png
 s368649243.919963
@@ -521,6 +670,15 @@ xbuild/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap05Sel.png
 xchap05Sel.png
 lSLF07#2@18"Copy chap05Sel.png368649243#368649244#0(0"0(0#0#59"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap05Sel.png4430974608#504"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap05Sel.png /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app0#
 
+CCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap05text.png chap05text.png
+s369072135.256539
+e369072135.538060
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap05text.png
+xchap05text.png
+lSLF07#2@19"Copy chap05text.png369072135#369072135#0(0"0(0#0#60"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap05text.png4430139024#505"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap05text.png /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app0#
+
 CCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap06Sel.png chap06Sel.png
 s368649243.921781
 e368649244.021204
@@ -529,6 +687,15 @@ xCpResource
 xbuild/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap06Sel.png
 xchap06Sel.png
 lSLF07#2@18"Copy chap06Sel.png368649243#368649244#0(0"0(0#0#59"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap06Sel.png4430974608#504"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap06Sel.png /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app0#
+
+CCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap06text.png chap06text.png
+s369072135.258844
+e369072135.538200
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap06text.png
+xchap06text.png
+lSLF07#2@19"Copy chap06text.png369072135#369072135#0(0"0(0#0#60"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap06text.png4430139024#505"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap06text.png /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app0#
 
 CCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap07Sel.png chap07Sel.png
 s368649243.923597
@@ -539,6 +706,15 @@ xbuild/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap07Sel.png
 xchap07Sel.png
 lSLF07#2@18"Copy chap07Sel.png368649243#368649244#0(0"0(0#0#59"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap07Sel.png4430974608#504"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap07Sel.png /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app0#
 
+CCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap07text.png chap07text.png
+s369072135.260734
+e369072135.536088
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap07text.png
+xchap07text.png
+lSLF07#2@19"Copy chap07text.png369072135#369072135#0(0"0(0#0#60"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap07text.png4430139024#505"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap07text.png /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app0#
+
 CCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap08Sel.png chap08Sel.png
 s368649243.924774
 e368649244.008655
@@ -548,6 +724,15 @@ xbuild/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap08Sel.png
 xchap08Sel.png
 lSLF07#2@18"Copy chap08Sel.png368649243#368649244#0(0"0(0#0#59"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap08Sel.png4430974608#504"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap08Sel.png /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app0#
 
+CCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap08text.png chap08text.png
+s369072135.262188
+e369072135.538346
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap08text.png
+xchap08text.png
+lSLF07#2@19"Copy chap08text.png369072135#369072135#0(0"0(0#0#60"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap08text.png4430139024#505"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap08text.png /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app0#
+
 CCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap09Sel.png chap09Sel.png
 s368649243.926619
 e368649244.011002
@@ -556,6 +741,15 @@ xCpResource
 xbuild/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap09Sel.png
 xchap09Sel.png
 lSLF07#2@18"Copy chap09Sel.png368649243#368649244#0(0"0(0#0#59"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap09Sel.png4430974608#504"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap09Sel.png /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app0#
+
+CCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap09text.png chap09text.png
+s369072135.263088
+e369072135.538487
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap09text.png
+xchap09text.png
+lSLF07#2@19"Copy chap09text.png369072135#369072135#0(0"0(0#0#60"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap09text.png4430139024#505"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/chap09text.png /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app0#
 
 CCpResource build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/chap10Sel.png chap10Sel.png
 s368649244.006607
@@ -657,23 +851,23 @@ xvoltarButton.png
 lSLF07#2@21"Copy voltarButton.png368650439#368650439#0(0"0(0#0#62"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/voltarButton.png4402294416#507"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/voltarButton.png /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app0#
 
 CGenerateDSYMFile /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app.dSYM /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho
-s368650854.531126
-e368650854.617062
+s369073096.970958
+e369073097.010293
 r1
 xGenerateDSYMFile
 x/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app.dSYM
 x/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho
-lSLF07#2@145"GenerateDSYMFile build/Debug-iphonesimulator/ChapeuzinhoVermelho.app.dSYM build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho368650854#368650854#0(0"0(0#0#117"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho4497362576#440"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho -o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app.dSYM0#
+lSLF07#2@145"GenerateDSYMFile build/Debug-iphonesimulator/ChapeuzinhoVermelho.app.dSYM build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho369073096#369073097#0(0"0(0#0#117"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho4518620816#440"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho -o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app.dSYM0#
 
 CLd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho normal i386
-s368650854.198020
-e368650854.531007
+s369073096.911397
+e369073096.970855
 r1
 xLd
 x/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho
 xnormal
 xi386
-lSLF07#2@122"Link /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho368650854#368650854#0(0"0(0#0#0"4497362576#995"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator -F/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator -filelist /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/ChapeuzinhoVermelho.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho0#
+lSLF07#2@122"Link /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho369073096#369073096#0(0"0(0#0#0"4518620816#1043"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator -F/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator -filelist /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/ChapeuzinhoVermelho.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -framework AVFoundation -o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/ChapeuzinhoVermelho0#
 
 CProcessInfoPlistFile /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/Info.plist ChapeuzinhoVermelho-Info.plist
 s368644577.683740
@@ -698,10 +892,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@41"Precompile ChapeuzinhoVermelho_Prefix.pch368643540#368643547#0(0"0(0#0#76"/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/ChapeuzinhoVermelho_Prefix.pch4468510352#2100"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-generated-files.hmap -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-own-target-headers.hmap -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-all-target-headers.hmap -iquote /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/ChapeuzinhoVermelho-project-headers.hmap -F/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/include -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/DerivedSources/i386 -I/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/DerivedSources -c /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/ChapeuzinhoVermelho_Prefix.pch -o /var/folders/ym/pgs532kn5r12kjlbgkdrnw3r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ChapeuzinhoVermelho_Prefix-fltymomeulkwfsaeirsveqelfonu/ChapeuzinhoVermelho_Prefix.pch.gch0#
 
 CTouch /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app
-s368650854.617158
-e368650854.631388
+s369073097.016195
+e369073097.034932
 r1
 xTouch
 x/Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app
-lSLF07#2@103"Touch /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app368650854#368650854#0(0"0(0#0#0"4497362576#304"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app0#
+lSLF07#2@103"Touch /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app369073097#369073097#0(0"0(0#0#0"4518620816#304"    cd /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app0#
 
