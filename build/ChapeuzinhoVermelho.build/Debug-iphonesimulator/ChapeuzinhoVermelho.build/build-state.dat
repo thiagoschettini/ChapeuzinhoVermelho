@@ -1,7 +1,7 @@
 TChapeuzinhoVermelho
 v7
 r0
-t369073097.034986
+t369086882.166088
 cCheck dependencies
 cProcessInfoPlistFile /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/build/Debug-iphonesimulator/ChapeuzinhoVermelho.app/Info.plist ChapeuzinhoVermelho-Info.plist
 cCompileXIB /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/MainWindow.xib
@@ -492,7 +492,7 @@ s1067
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies369073095#369073095#0(0"0(0#1#0"4518622528#0"0#
+lSLF07#2@18"Check dependencies369086876#369086882#0(0"0(0#1#0"17202100992#0"0#
 
 CCompileC build/ChapeuzinhoVermelho.build/Debug-iphonesimulator/ChapeuzinhoVermelho.build/Objects-normal/i386/ChapeuzinhoVermelhoAppDelegate.o /Users/thiagosilva/THIAGO/ChapeuzinhoVermelho/Classes/ChapeuzinhoVermelhoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s369072169.399064
